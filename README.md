@@ -28,13 +28,13 @@ This repository contains a minimum distance prediction network for dual-arm mani
 ## Train
 
 ```bash
-sh scripts\\train\\SSM_cross_attn_train.sh
+sh scripts\train\SSM_cross_attn_train.sh
 ```
 
 ## Eval
 
 ```bash
-sh scripts\\eval\\SSM_cross_attn_eval.sh
+sh scripts\eval\SSM_cross_attn_eval.sh
 ```
 
 ## Citation
