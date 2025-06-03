@@ -1,0 +1,11 @@
+python -u run.py \
+  --eval \
+  --model mamba \
+  --num_frames 10 \
+  --d_model 14 \
+  --d_state 256 \
+  --d_conv 64 \
+  --expand 32 \
+  --test_datafile_path "data/test_distance_data_small.txt" \
+  --checkpoint "checkpoints/best_mamba_model.pt" \
+  --batch_size 100 \

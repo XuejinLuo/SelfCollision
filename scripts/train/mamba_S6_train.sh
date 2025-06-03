@@ -1,0 +1,17 @@
+python -u run.py \
+  --train \
+  --model mamba_S6 \
+  --num_frames 5 \
+  --d_model 64 \
+  --d_ff 128 \
+  --d_state 256 \
+  --train_data_path "data/distance_data" \
+  --files_num 37 \
+  --test_datafile_path "data/test_distance_data.txt" \
+  --checkpoints_path "checkpoints" \
+  --checkpoint "checkpoints/mamba_S6/best_mamba_S6_model_7epoch_5frames_64dm_128dff_255ds_14.7.pt" \
+  --batch_size 100 \
+  --num_epochs 2000 \
+  --test_frequency 3 \
+  --learning_rate 0.0001 \
+  --continue_train \

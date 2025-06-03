@@ -1,0 +1,14 @@
+python -u run.py \
+  --train \
+  --model lstm \
+  --num_frames 5 \
+  --hidden_size 200 \
+  --num_layers 2 \
+  --train_data_path "data/distance_data" \
+  --files_num 37 \
+  --test_datafile_path "data/test_distance_data.txt" \
+  --checkpoints_path "checkpoints" \
+  --batch_size 100 \
+  --num_epochs 100 \
+  --test_frequency 3 \
+  --learning_rate 0.0001 \
