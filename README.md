@@ -37,9 +37,6 @@ sh scripts\train\SSM_cross_attn_train.sh
 sh scripts\eval\SSM_cross_attn_eval.sh
 ```
 
-## Data
-Each piece of data in the dataset is saved in the form of a minimum distance + 14 joint angles (normalized). Since the network relies on temporal prediction, it is desirable that each data group contains multiple consecutive pieces of data. Our data set has been uploaded to the Google cloud disk, you only need to download and put it in the data folder.
-
 ## Citation
 If you find this repository helpful, please consider citing:
 
