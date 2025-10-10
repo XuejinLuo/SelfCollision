@@ -2,8 +2,8 @@
 
 ![Minimum Distance Prediction Network](assets/DistanceNetwork.png)
 > **Mamba: Linear-Time Sequence Modeling with Selective State Spaces**\
-> Xuejin Luo*, Runshi Zhang*, Siqin Yang*, Ruizhi Zhang*, Junchen Wang*\
-> Paper: 
+> Xuejin Luo*, Runshi Zhang*, Siqin Yang*, Zhen Sun*, Ruizhi Zhang*, Junchen Wang*\
+> Paper: Reactive Self-Collision Avoidance for Dual-Arm Robots Using a Temporal Feature Modeling and Fusion Network (accepted in IEEE Transactions on Automation Science and Engineering)
 
 ## About
 
