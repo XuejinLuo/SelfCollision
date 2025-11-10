@@ -39,4 +39,12 @@ sh scripts\eval\SSM_cross_attn_eval.sh
 
 ## Citation
 If you find this repository helpful, please consider citing:
+```bibtex
+@article{luo2025reactive,
+  title={Reactive Self-Collision Avoidance for Dual-Arm Robots Using a Temporal Feature Modeling and Fusion Network},
+  author={Luo, Xuejin and Zhang, Runshi and Yang, Siqin and Sun, Zhen and Zhang, Ruizhi and Wang, Junchen},
+  journal={IEEE Transactions on Automation Science and Engineering},
+  year={2025},
+  publisher={IEEE}
+}
 
